@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make-Me | Sua Beleza, Nossa Paixão</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const heroSection = document.querySelector(".hero");
+            heroSection.innerHTML = `
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="hero-title">Bem-vinda à Make-Me</h1>
+                        <p class="hero-subtext">Seus Gostos, Nossos Produtos.</p>
+                    </div>
+                    <div class="hero-image">
+                        <img src="Captura de tela 2025-02-24 211532.png" alt="Imagem Destacada">
+                    </div>
+                </div>
+            `;
+        });
+    </script>
+    <style>
+        .hero-text {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #770000;
+            text-align: center;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        .hero-subtext {
+            font-size: 1.2rem;
+            text-align: center;
+            color: #000000;
+            margin-top: 5px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        footer {
+            background-color: #fff5f8;
+            color: #880e4f;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+            font-size: 0.9rem;
+            border-top: 2px solid #e77cb2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <span style="color:#ff69b4; font-size: 36px;">♡</span> <!-- Coração maior -->
+                <span style="font-weight: bold; color: #e9368f;">Make-Me</span>
+            </div>
+            <div class="nav-links">
+                <a href="https://www.contate.me/make-me" class="nav-button">Contato</a>
+                <a href="https://www.instagram.com/make.me.ofc?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="nav-button">Sobre</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero"></section>
+
+        <section class="products">
+            <h2>Nossos Produtos</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="CREAMY.jpg" alt="Emulsão de Limpeza">
+                    </div>
+                    <h3 style="color: #e9368f;">Creamy - SkinCare</h3> <!-- Rosa mais forte -->
+                    <p>EMULSÃO DE LIMPEZA</p>
+                    <p class="price">R$ 82,90</p>
+                    <a href="https://www.contate.me/make-me" class="buy-button">Comprar</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="esfoliante labial.jpg" alt="Esfoliante Labial Lua&Neve">
+                    </div>
+                    <h3 style="color: #e9368f;">Esfoliante Labial</h3> <!-- Rosa mais forte -->
+                    <p>Lua&Neve</p>
+                    <p class="price">R$ 19,90</p>
+                    <a href="https://www.contate.me/make-me" class="buy-button">Comprar</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="óleo de argan.jpg" alt="Óleo de Argan">
+                    </div>
+                    <h3 style="color: #e9368f;">Argan Oil - Lola</h3> <!-- Rosa mais forte -->
+                    <p>Óleo de Argan 50ML</p>
+                    <p class="price">R$ 26,90</p>
+                    <a href="https://www.contate.me/make-me" class="buy-button">Comprar</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="esfoliador eletrico.jpg" alt="Esfoliador Facial Elétrico">
+                    </div>
+                    <h3 style="color: #e9368f;">Esfoliador Facial Elétrico</h3> <!-- Rosa mais forte -->
+                    <p>Limpeza profunda e eficiente</p>
+                    <p class="price">R$ 29,90</p>
+                    <a href="https://www.contate.me/make-me" class="buy-button">Comprar</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="BE(M)DITA GHEE.jpg" alt="Máscara Capilar Nutrição LOLA">
+                    </div>
+                    <h3 style="color: #e9368f;">Máscara Capilar Be(m)dita Ghee</h3> <!-- Rosa mais forte -->
+                    <p>Nutrição LOLA</p>
+                    <p class="price">R$ 53,90</p>
+                    <a href="https://www.contate.me/make-me" class="buy-button">Comprar</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="pó solto ultrafino.jpg" alt="Pó Solto Ultrafino PinkPower">
+                    </div>
+                    <h3 style="color: #e9368f;">Pó Solto Ultrafino</h3> <!-- Rosa mais forte -->
+                    <p>PinkPower Dapop 15G</p>
+                    <p class="price">R$ 25,90</p>
+                    <a href="https://www.contate.me/make-me" class="buy-button">Comprar</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="PÓ BOCA ROSA.jpg" alt="Pó Boca Rosa Beauty">
+                    </div>
+                    <h3 style="color: #e9368f;">Pó Boca Rosa Beauty</h3> <!-- Rosa mais forte -->
+                    <p>Ultra fino e aveludado</p>
+                    <p class="price">R$ 38,90</p>
+                    <a href="https://www.contate.me/make-me" class="buy-button">Comprar</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="SÉRUM.jpg" alt="Sérum Facial Stay Fix">
+                    </div>
+                    <h3 style="color: #e9368f;">Sérum Facial Stay Fix</h3> <!-- Rosa mais forte -->
+                    <p>Hidratação e fixação</p>
+                    <p class="price">R$ 17,90</p>
+                    <a href="https://www.contate.me/make-me" class="buy-button">Comprar</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Make-Me. Todos os direitos reservados.</p>
+        <p>Loja online com entregas somente em São Jerônimo da Serra. Site apenas para visualização dos produtos.</p>
+    </footer>
+</body>
+</html>
